@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  app:
+    image: fe/chat-app
+    ports:
+      - "3001:3000"
+    restart: unless-stopped
